@@ -1,4 +1,3 @@
-var username = "gort";
 var greetings = [
     "whaddya' want...",
     "get on with it...",
@@ -19,10 +18,6 @@ window.addEventListener('load', (e) => {
     determineGreet();
     displayTime(time);
 });
-
-// document.getElementById("y").addEventListener('click', (e) => {
-//     document.getElementById('autism-container').style.display = "block";
-// });
 
 setInterval(() => {
     var today = new Date();
