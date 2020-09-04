@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1d2021;
+    transform: translateY(50%);
+}
+input{
+    color: #7c6f64;
+    background-color: #1d2021;
+    width: 280px;
+    text-align: left;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px #7c6f64 solid;
+    outline: none;
+}
+
+a:visited, a:link, a:active{
+    text-decoration: none;
+    text-indent: 2px;
+    color: #ebdbb2;
+}
+
+.greeting-container{
+    transform: translateX(-8%);
+    margin-bottom: -1%;
+}
+
+.greeting-container p{
+    color: #98971a;
+    font-size: 18px;
+}
+
+.con{
+    transform: translateX(-3%);
+    /* transform: translateY(-8%); */
+    display: inline-flex;
+    text-align: left;
+}
+
+.main{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+
+    margin-top: 9%;
+    margin-right: 30%;
+}
+
+.other #time{
+    margin-top: 98px;
+}
+
+#autism-container{
+    position: absolute;
+}
+
+#watchheader   { color: #fabd2f }
+#socialheader  { color: #fb4934 }
+#serverheader { color: #83a598 }
+#otherheader   { color: #d3869b }
+a:hover{ border-bottom: 2px #ebdbb2 solid }
+img{ border: 5px #7c6f64 solid; transform: translateY(-10%); }
+#time{ color: #83a598; font-size: 13px; }
+
+@media only screen and (max-width: 960px){
+    .con{
+        transform: translateX(6%);
+    }
+    .main{
+        margin-right: 20%;
+        margin-left: 5%;
+    }
+    img{
+        transform: translateY(-15%);
+    }
+}
