@@ -5,8 +5,8 @@ nothing fancy here either, just most used pages, a search bar, the time and of c
 
 gruvbox theme to match my desktop. my dotfiles are in [my dotfiles repo](https://github.com/gfriesen98/dotfiles)
 
-![ZoomedIn](../assets/screenshotzoom.png?raw=true)
-![Normal](../assets/screenshot.png?raw=true)
+![ZoomedIn](../assets/screenshots/screenshotzoom.png?raw=true)
+![Normal](../assets/screenshots/screenshot.png?raw=true)
 
 # installing
 
